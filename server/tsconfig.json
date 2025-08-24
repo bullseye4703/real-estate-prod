@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    /* Language & Environment */
+    "target": "es2020",                         
+    "module": "commonjs",                
+    "moduleResolution": "node",
+    "lib": ["es2020"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    /* Output */
+    "rootDir": ".",
+    "outDir": "./dist",
+    "sourceMap": true,
+
+    /* Type Checking */
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Declarations */
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": ["src/**/*", "src/data/**/*.json", "prisma/**/*"]
+}
